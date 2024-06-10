@@ -7,32 +7,33 @@ module System.Cron.Types
     ( CronSchedule(..)
     , Crontab(..)
     , CrontabEntry(..)
-    , MinuteSpec
+    , MinuteSpec (..)
+    , DayOfWeekSpec (..)
     , CronCommand(..)
     , minuteSpec
     , mkMinuteSpec
-    , HourSpec
+    , HourSpec (..)
     , hourSpec
     , mkHourSpec
-    , MonthSpec
+    , MonthSpec (..)
     , monthSpec
     , mkMonthSpec
-    , DayOfMonthSpec
+    , DayOfMonthSpec (..)
     , dayOfMonthSpec
     , mkDayOfMonthSpec
     , DayOfWeekSpec
     , dayOfWeekSpec
     , mkDayOfWeekSpec
     , BaseField(..)
-    , SpecificField
+    , SpecificField (..)
     , specificField
     , mkSpecificField
-    , RangeField
+    , RangeField (..)
     , rfBegin
     , rfEnd
     , mkRangeField
     , CronField(..)
-    , StepField
+    , StepField (..)
     , sfField
     , sfStepping
     , mkStepField
